@@ -12,6 +12,6 @@ const server = http.createServer((request,response)=>{
             response.end('No encontrado')
     }
 })
-server.listen(4000,()=>{
+server.listen(3079,()=>{
     console.log('servidor operativo en puerto 4000 y localhost')
 })
